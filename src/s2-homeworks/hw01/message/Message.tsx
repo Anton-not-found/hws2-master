@@ -2,7 +2,19 @@ import React from 'react'
 import s from './Message.module.css'
 
 // нужно создать правильный тип вместо any
-export type MessagePropsType = any
+export type MessagePropsType = {
+    message: {
+        id: number,
+        user: {
+            avatar: string, // можно менять
+            name: string,  // можно менять
+        },
+        message: {
+            text: string
+            time: string
+        }
+    }
+}
 
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
