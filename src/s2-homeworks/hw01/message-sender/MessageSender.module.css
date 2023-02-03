@@ -1,18 +1,29 @@
-.sendForm {
+.sendForm textarea {
 
 }
 
 .textarea {
+    width: 976px;
+    margin-left: 70px;
+    resize: none;
+    background: #F5F7FB;
+    border-radius: 20px;
 
+    height: 40px;      /*Почему не работает????!!!!*/
 }
 
 .button {
-
+    width: 120px;
+    height: 40px;
+    background: #0066CC;
+    border-radius: 20px;
+    margin-left: 44px;
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }

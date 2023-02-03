@@ -11,8 +11,8 @@ type FriendMessagePropsType = {
             name: string,  // можно менять
         },
         message: {
-            text: string
-            time: string
+            text: string,
+            time: string,
         }
     }
 }
