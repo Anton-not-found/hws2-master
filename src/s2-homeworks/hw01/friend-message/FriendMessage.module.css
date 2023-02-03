@@ -1,5 +1,8 @@
 .friendMessage {
-
+    border: 1px solid #f80202;
+    /*display: flex;
+    justify-content: end;*/
+    padding-left: 1162px;
 }
 
 .friendImageAndText {
@@ -7,12 +10,14 @@
 }
 
 .friendImageAndText img {
-    height: 200px;
-    width: 200px;
-   border-radius: 100px;
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
 }
 
 .friendText {
+    font-family: Arial;
+    font-size: 16px;
 
 }
 
@@ -21,13 +26,19 @@
 }
 
 .friendName {
-
+    font-family: Arial;
+    font-size: 16px;
 }
 
 .friendMessageText {
+    font-family: Arial;
+    font-size: 16px;
+
 
 }
 
 .friendTime {
+    font-family: Arial;
+    font-size: 10px;
 
 }

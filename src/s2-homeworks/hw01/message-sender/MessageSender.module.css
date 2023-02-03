@@ -3,13 +3,14 @@
 }
 
 .textarea {
+    margin-top: 73px;
     width: 976px;
     margin-left: 70px;
     resize: none;
     background: #F5F7FB;
     border-radius: 20px;
 
-    height: 40px;      /*Почему не работает????!!!!*/
+    height: 40px; /*Почему не работает????!!!!*/
 }
 
 .button {
