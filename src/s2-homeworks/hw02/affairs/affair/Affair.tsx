@@ -50,4 +50,5 @@ function Affair(props: AffairPropsType) {
     )
 }
 
+
 export default Affair

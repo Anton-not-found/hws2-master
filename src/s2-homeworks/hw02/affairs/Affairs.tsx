@@ -79,4 +79,5 @@ function Affairs(props: AffairsPropsType) {
     )
 }
 
+
 export default Affairs
