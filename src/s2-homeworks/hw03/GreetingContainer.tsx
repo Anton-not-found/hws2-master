@@ -4,6 +4,7 @@ import {UserType} from './HW3'
 
 
 
+
 type GreetingContainerPropsType = {
     users: Array<UserType> // need to fix any
     addUserCallback: (name: string) => void // need to fix any
@@ -26,7 +27,7 @@ export const pureOnBlur = (name: string, setError: (error: string) => void) => {
     }
 }
 
-export const pureOnEnter = (e: KeyboardEvent<HTMLImageElement>, addUser: any) => { // если нажата кнопка Enter - добавить
+export const pureOnEnter = (e: KeyboardEvent<HTMLImageElement>, addUser: ()=>void) => { // если нажата кнопка Enter - добавить
 
     if(e.key === 'Enter') {
         addUser()
@@ -48,12 +49,15 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     console.log(name)
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
 
-        setName(e.currentTarget.value) // need to fix
+        setName(e.currentTarget.value ) // need to fix
 
         error && setError('')
     }
+
+
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)
+
     }
 
     const onBlur = () => {
@@ -62,10 +66,12 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 
     const onEnter = (e: KeyboardEvent<HTMLImageElement>) => {
         pureOnEnter(e, addUser)
+
     }
 
-    const totalUsers = 0 // need to fix
-    const lastUserName = 'some name' // need to fix
+    const totalUsers = users.length  // need to fix
+    const lastUserName = users.length ? users[users.length-1].name: '' // need to fix
+
 
     return (
         <Greeting
