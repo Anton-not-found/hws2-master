@@ -30,7 +30,9 @@ export const pureAddUserCallback = (name: string, setUsers: (users: Array<UserTy
         name: name
     }
     setUsers([...users, user])
-    debugger
+    console.log(user)
+
+
 }
 
 const HW3 = () => {
@@ -38,6 +40,7 @@ const HW3 = () => {
 
     const addUserCallback = (name: string) => { // need to fix any
         pureAddUserCallback(name, setUsers, users)
+
     }
 
     return (
