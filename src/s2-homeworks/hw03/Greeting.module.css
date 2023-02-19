@@ -12,11 +12,8 @@
 }
 
 .error {
+
     color: #f80202;
-    border-color: #f80202;
-    width: 372px;
-    height: 36px;
-    border-radius: 5px;
 
 }
 
@@ -34,6 +31,10 @@
 
 .errorInput {
     border-color: #f80202;
+
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
 }
 
 .button {
