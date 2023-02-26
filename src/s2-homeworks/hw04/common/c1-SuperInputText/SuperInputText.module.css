@@ -1,20 +1,29 @@
 .input:focus {
+    border: 2px solid rgba(2, 2, 2, 0.37);
+    outline: none;
+
 }
 
 .input {
+    margin-left: 70px;
 }
 
 .inputWrapper {
+
 }
 
 .superInput {
+    border: 2px solid #56f806;
 }
 
 .errorInput {
+    border: 2px solid #f80202;
+    text-decoration: line-through;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    color: #f80202;
 }

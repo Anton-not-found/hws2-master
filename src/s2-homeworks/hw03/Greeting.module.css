@@ -30,8 +30,9 @@
 }
 
 .errorInput {
-    border-color: #f80202;
 
+    border: 2px solid #f80202;
+    text-decoration: line-through;
     width: 372px;
     height: 36px;
     border-radius: 5px;
