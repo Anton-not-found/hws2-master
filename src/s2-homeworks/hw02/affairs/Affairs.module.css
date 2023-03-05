@@ -53,3 +53,20 @@
     flex-wrap: wrap;
     max-width: 450px;
 }
+
+.button:active {
+    background: var(--color);
+    color: white;
+}
+
+.active {
+    background: var(--color);
+    color: white;
+}
+
+.affairs {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
