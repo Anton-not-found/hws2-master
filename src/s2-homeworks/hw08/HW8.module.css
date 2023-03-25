@@ -1,19 +1,29 @@
 .item {
+    /*padding-left: 200px;*/
+
 }
 
 .item:last-of-type {
+    /*padding-left: 200px;*/
+
 }
 
 .users {
+    margin-left: 200px;
+    border: 2px solid #56f806;
 }
 
 .buttonsContainer {
+    margin-left: 200px;
+    border: 2px solid #ff6969;
 }
 
 .container {
+
 }
 
 .thead {
+
 }
 
 .nameCol {
