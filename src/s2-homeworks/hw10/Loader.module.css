@@ -1,3 +1,20 @@
 .loader {
     /*свг и/или анимация*/
+    height: 20px;
+    width: 20px;
+    border-left: 3px solid #f80202;
+    border-bottom: 3px solid #f80202;
+    border-right: 3px solid #f80202;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
