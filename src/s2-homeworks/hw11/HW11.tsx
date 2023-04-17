@@ -6,7 +6,7 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 
 /*
 * 1 - передать значения в оба слайдера *
-* 2 - дописать типы и логику функции change
+* 2 - дописать типы и логику функции change *
 * 3 - сделать стили в соответствии с дизайном
 * */
 
@@ -23,7 +23,7 @@ function HW11() {
         // console.log('value:  ' + value)
         if (Array.isArray(value)) {
             setValue1(value[0])
-            setValue1(value[1])
+            setValue2(value[1])
         } else {
             setValue1(value)
         }
