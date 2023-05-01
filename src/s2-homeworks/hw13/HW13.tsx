@@ -9,8 +9,8 @@ import error500 from './images/500.svg'
 import errorUnknown from './images/error.svg'
 
 /*
-* 1 - дописать функцию send
-* 2 - дизэйблить кнопки пока идёт запрос
+* 1 - дописать функцию send    *
+* 2 - дизэйблить кнопки пока идёт запрос    *
 * 3 - сделать стили в соответствии с дизайном
 * */
 
@@ -38,7 +38,8 @@ const HW13 = () => {
                 setCode('Код 200!')
                 setImage(success200)
                 // дописать
-
+                setInfo(res.data.info)
+                setText(res.data.Text)
             })
             .catch((e) => {
                 // дописать
